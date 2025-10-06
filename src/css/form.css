@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+nav {
+  width: 100%;
+  height: 90px;
+  background-color: skyblue;
+}
+img {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 100%;
+}
+h1 {
+  position: relative;
+  left: 25px;
+  top: -25px;
+  display: inline-block;
+  font-size: 30px;
+}
+a {
+  position: relative;
+  display: inline-block;
+  left: 25%;
+  word-spacing: 80%;
+  top: -30px;
+  font-size: larger;
+  background-color: skyblue;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 15%;
+}
+.bond {
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 60%;
+  height: 110%;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+h3 {
+  position: relative;
+  left: 10px;
+}
+.name {
+  position: relative;
+  left: 10px;
+  margin-left: 10px;
+  padding: 0px 5px;
+}
+.guardian {
+  position: relative;
+  left: -15px;
+}
+button {
+  position: relative;
+  left: 40%;
+  height: 15%;
+  width: 15%;
+}
+.extra {
+  width: 100%;
+  height: 115px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: 780px;
+}
+footer {
+  background-color: skyblue;
+  color: black;
+  text-align: left;
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  margin-left: 0%;
+}
+.formLink {
+  background-color: #62c1e5;
+  transition: background-color 0.3s ease;
+}
+
+.formLink.active {
+  background-color: steelblue;
+}

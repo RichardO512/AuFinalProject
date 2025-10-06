@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="./css/form.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="./img/logoss.png" />
+      <h1>Policarpio State University - Enrollment System</h1>
+      <a href="index.html"><b>Home</b></a>
+      <a class="formLink" href="form.html"><b>Enroll</b></a>
+      <a><b>About</b></a>
+    </nav>
+    <div>
+      <h3>STUDENT INFORMATION</h3>
+      <form method="POST" action="/submit">
+        <label>First Name:</label>
+        <input name="firstName" type="text" placeholder="Enter First Name" /><br />
+        <label>Last Name:</label>
+        <input name="lastName" type="text" placeholder="Enter Last Name" /><br />
+        <label>Email:</label>
+        <input name="email" type="email" required placeholder="johndoe@gmail.com" /><br />
+        <!--  -->
+        <label for="phone">Phone number:</label
+        ><input
+          placeholder="Example: 696969"
+          name="phone"
+          type="tel"
+          required
+          class="number"
+        /><br /><br />
+        <label for="text">Province:</label>
+        <input name="province" type="text" placeholder="Enter Province" /><br /><br />
+        <label for="text">City:</label> <input types="text" placeholder="Enter City" /><br /><br />
+        <label for="text">Address:</label>
+        <input
+          name="address"
+          type="text"
+          size="65"
+          placeholder="Ex: Block 9, Alley 54, 280-B, Westbank Rd. Floodway, Baranggay Maybunga"
+        />
+        <br />
+        <!--  -->
+
+        <label for="text">Birthday:</label> <input type="date" /> <label for="text">Gender:</label>
+        <select name="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+
+        <label for="text">Civil Status:</label>
+        <select name="Civil Status">
+          <option value="single">Single</option>
+          <option value="married">Married</option>
+          <option value="widowed">Widowed</option>
+        </select>
+
+        <!-- Add more fields with name="..." -->
+        <!--  -->
+        <label for="course"><h3>COURSE SELECTION:</h3></label>
+
+        <input id="BS in Information Technology" name="answer" type="radio" />
+        <label for="BS in Information Technology">BS in Information Technology</label>
+
+        <input id="BS in Computer Science" name="answer" type="radio" />
+        <label for="BS in Computer Science">BS in Computer Science</label>
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+
+      <!-- <label for="text">First Name:</label>
+      <input types="text" placeholder="Enter First Name" /><br /><br />
+      <label for="text">M.I:</label>
+      <input types="text" placeholder="Middle Initial" class="mid" /><br /><br />
+      <label for="text">Last Name:</label>
+      <input types="text" placeholder="Enter Last Name" /><br /><br />
+      <label for="Email">Email:</label><input type="email" required class="email" /><br /><br />
+      <label for="phone">Phone number:</label
+      ><input type="tel" required class="number" /><br /><br />
+      <label for="text">Province:</label>
+      <input type="text" placeholder="Enter Province" /><br /><br />
+      <label for="text">City:</label> <input types="text" placeholder="Enter City" /><br /><br />
+      <label for="text">Address:</label>
+      <input
+        type="text"
+        size="65"
+        placeholder="Ex: Block 9, Alley 54, 280-B, Westbank Rd. Floodway, Baranggay Maybunga"
+      />
+      <br /><br />
+
+      <label for="text">Birthday:</label> <input type="date" /> <label for="text">Gender:</label>
+      <select name="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+
+      <label for="text">Civil Status:</label>
+      <select name="Civil Status">
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="widowed">Widowed</option></select
+      ><br /><br />
+      <div class="guar">
+        <h3 class="gua">GUARDIAN INFORMATION</h3>
+        <label for="text">First Name:</label>
+        <input types="text" placeholder="Enter First Name" /> <label for="Email">Email:</label
+        ><input type="email" required class="email" /><br /><br />
+        <label for="text">M.I:</label>
+        <input types="text" placeholder="Middle Initial" class="mid" />
+        <label for="phone">Phone number:</label
+        ><input type="tel" required class="number" /><br /><br />
+        <label for="text">Last Name:</label> <input types="text" placeholder="Enter Last Name" />
+        <label for="text">Relationship tp Student:</label>
+        <input types="text" placeholder="" /><br /><br />
+        <label for="text">Province:</label>
+        <input type="text" placeholder="Enter Province" /><br /><br />
+        <label for="text">City:</label> <input types="text" placeholder="Enter City" /><br /><br />
+        <label for="text">Address:</label>
+        <input
+          type="text"
+          size="65"
+          placeholder="Ex: Block 9, Alley 54, 280-B, Westbank Rd. Floodway, Baranggay Maybunga"
+        />
+        <br /><br />
+        <input type="submit" />
+      </div>
+    </div>
+    <div class="main">
+      <label for="text"><h3>COURSE SELECTION:</h3></label>
+      <form target="_blank">
+        <input id="BS in Information Technology" name="answer" type="radio" />
+        <label for="BS in Information Technology">BS in Information Technology</label>
+
+        <input id="BS in Computer Science" name="answer" type="radio" />
+        <label for="BS in Computer Science">BS in Computer Science</label>
+
+        <br />
+        <br />
+
+        <input id="BS in Hospitality Management" name="answer" type="radio" />
+        <label for="BS in Hospitality Management">BS in Hospitality Management</label>
+
+        <input id="BS in Civil Engineering" name="answer" type="radio" />
+        <label for="BS in Civil Engineering">BS in Civil Engineering</label>
+
+        <br />
+        <br />
+
+        <input id="BS in Mechaninal Engineering" name="answer" type="radio" />
+        <label for="BS in Mechaninal Engineering">BS in Mechaninal Engineering</label>
+
+        <input id="BS in Computer Engineering" name="answer" type="radio" />
+        <label for="BS in Computer Engineering">BS in Computer Engineering</label>
+
+        <br />
+        <br />
+
+        <input id="BS in Electrical Engineering" name="answer" type="radio" />
+        <label for="BS in Electrical Engineering">BS in Electrical Engineering</label>
+
+        <input id="BS in Nursing" name="answer" type="radio" />
+        <label for="BS in Nursing">BS in Nursing</label>
+
+        <br />
+        <br />
+
+        <input id="BS in Psychology" name="answer" type="radio" />
+        <label for="BS in Psychology">BS in Psychology</label>
+
+        <input id="BS in Architecture" name="answer" type="radio" />
+        <label for="BS in Architecture">BS in Architecture</label>
+      </form>
+
+      <br /><br />
+      <label for="text">Report Card:</label> <input type="file" />
+      <label for="text">Birth Certificate:</label> <input type="file" /><br /><br />
+     -->
+    </div>
+    <footer class="footer">
+      <p>
+        For more information and queries, contact us:<br />
+        Gmail: PolStateUniversity@gmail.com<br />
+        FB page: Policarpio State University
+      </p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
