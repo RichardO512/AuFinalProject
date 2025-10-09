@@ -60,12 +60,3 @@ a {
 a {
   text-decoration: none;
 }
-
-.about {
-  background-color: #62c1e5;
-  transition: background-color 0.3s ease;
-}
-
-.about.active {
-  background-color: steelblue;
-}

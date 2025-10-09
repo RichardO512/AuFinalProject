@@ -1,0 +1,220 @@
+body {
+  margin: 0%;
+}
+nav {
+  width: 100%;
+  height: 90px;
+  background-color: skyblue;
+  position: relative;
+}
+img {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+h1 {
+  position: relative;
+  left: 25px;
+  top: -25px;
+  display: inline-block;
+  font-size: 30px;
+}
+a {
+  position: relative;
+  display: inline-block;
+  left: 25%;
+  word-spacing: 80%;
+  top: -30px;
+  font-size: larger;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 15%;
+}
+
+main {
+  padding: 15px;
+  max-width: 750px;
+  margin: 15px auto;
+  background-color: skyblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.center-container h2 {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: start;
+}
+.center-container h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.center-container h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: skyblue;
+  color: black;
+  text-align: left;
+  padding: 5px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  margin-left: 0%;
+}
+
+/*  */
+.about {
+  background-color: #62c1e5;
+  transition: background-color 0.3s ease;
+}
+
+.about.active {
+  background-color: steelblue;
+}
+/*  */
+/* .profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 1em;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.box1 {
+  background-color: red;
+  width: 200px;
+  height: 200px; */
+/* } */
+/* .box2 {
+  background-color: pink;
+} */
+/* .profile img {
+  width: 100px;
+  height: 100px;
+}
+.box3 { */
+/* background-color: black; */
+/* }
+.box4 {
+  background-color: #62c1e5;
+}
+.box5 {
+  background-color: blueviolet;
+}
+.box6 {
+  background-color: yellow;
+}
+.box7 {
+  background-color: chartreuse;
+} */
+/*  */
+/* .memberText > h2 {
+  text-align: center;
+} */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Flex container for the profile cards */
+.profile {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+  justify-content: center;
+  gap: 20px; /* Provides consistent spacing between cards */
+}
+
+/* Heading for the members section */
+.memberText {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.memberText h2 {
+  color: #333;
+  font-size: 2em;
+  border-bottom: 2px solid #62c1e5;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Main card styling */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  width: 250px; /* Set a fixed width for each card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add a hover effect for a more interactive feel */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image styling */
+.card-img-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
+  border: 3px solid #62c1e5;
+}
+
+.card-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the container without distortion */
+}
+
+/* Profile text styling */
+.card h3 {
+  margin: 0 0 5px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.card p {
+  margin: 0;
+  color: #777;
+  font-size: 0.9em;
+}
+
+.card.box1 {
+  background-color: #fce4ec;
+}
+.card.box2 {
+  background-color: #e3f2fd;
+}
+.card.box4 {
+  background-color: #fa7566;
+}
+.card.box5 {
+  background-color: #ede7f6;
+}
+.card.box6 {
+  background-color: #fffde7;
+}
+.card.box7 {
+  background-color: #c8f990;
+}
+.card.box8 {
+  background-color: #f3e2dd;
+}
